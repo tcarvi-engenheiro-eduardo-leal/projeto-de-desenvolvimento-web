@@ -1,4 +1,21 @@
 # Visão Geral
+
+## Versão
+```bash
+ng --version
+```  
+
+## Upgrade
+```bash
+npm uninstall -g @angular/cli
+```
+```bash
+npm install -g @angular/cli@latest
+```
+
+
+--  
+
 1. Typescript programming language
 2. Components' html templates
 4. Command Line Interface automation
