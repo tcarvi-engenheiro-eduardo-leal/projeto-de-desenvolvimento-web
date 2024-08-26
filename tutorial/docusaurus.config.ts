@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'automacao-angular',
+  title: 'desenvolvimento-web',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tcarvi-engenheiro-eduardo-leal/automacao-angular/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tcarvi-engenheiro-eduardo-leal/automacao-angular/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'automacao-angular',
+      title: 'desenvolvimento-web',
       logo: {
-        alt: 'automacao-angular Logo',
+        alt: 'desenvolvimento-web Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -72,7 +72,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/automacao-angular',
+          href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -116,12 +116,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/automacao-angular',
+              href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web',
             },
           ],
         },
       ],
-      copyright: `${new Date().toLocaleDateString("pt-BR")} ©TCARVI`,
+      copyright: `atualizado em  ${new Date().toLocaleDateString("pt-BR")} ©TCARVI`,
     },
     prism: {
       theme: prismThemes.github,
