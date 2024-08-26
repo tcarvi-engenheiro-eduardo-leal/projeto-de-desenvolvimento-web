@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tcarvi-engenheiro-eduardo-leal/projeto-de-desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tcarvi-engenheiro-eduardo-leal/projeto-de-desenvolvimento-web/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,7 +72,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/desenvolvimento-web',
+          href: 'https://github.com/tcarvi-engenheiro-eduardo-leal/projeto-de-desenvolvimento-web',
           label: 'GitHub',
           position: 'right',
         },
