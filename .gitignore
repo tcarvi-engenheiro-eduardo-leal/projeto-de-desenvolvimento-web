@@ -85,3 +85,13 @@ node_modules/
 /projetos_locais
 /tutorial/node_modules
 /tutorial/build
+
+# TCARVI
+nao_enviar
+node_modules
+build
+.firebaserc
+firebase.json
+yarn.lock
+package-lock.json
+katex
