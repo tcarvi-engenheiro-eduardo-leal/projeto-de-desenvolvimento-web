@@ -1,7 +1,7 @@
 ## Geracao de Tutorial
 - Comando usado para gerar website:
 	- npx create-docusaurus@latest [name] [template] [rootDir]
-	- npx create-docusaurus@latest pesquisa-sobre-algebra classic website --typescript
+	- npx create-docusaurus@latest nome-projeto classic website --typescript
 - Versões Utilizadas:
 	- nodejs: 22.12.0
 	- npm: 10.9.0
