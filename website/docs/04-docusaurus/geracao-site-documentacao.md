@@ -1,7 +1,7 @@
 ## Geracao de Tutorial
 - Comando usado para gerar website:
 	- npx create-docusaurus@latest [name] [template] [rootDir]
-	- npx create-docusaurus@latest nome-projeto classic website --typescript
+		- npx create-docusaurus@latest nome-projeto classic website --typescript
 - Versões Utilizadas:
 	- nodejs: 22.12.0
 	- npm: 10.9.0
@@ -18,10 +18,10 @@
 
 ## Alteração de texts:
 - My Site
-	- Algebra
+	- SEUSITE
 
 - Dinosaurs are cool
-	- Tutoriais de Algebra
+	- Tutoriais de SEUSITE
 
 - Docusaurus Tutorial - 5min
 	- Tutoriais - 10 min
@@ -30,7 +30,7 @@
 	- https://tcarvi.com.br
 
 - https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/
-	- https://github.com/tcarvi-engenheiro-eduardo-leal/pesquisa-sobre-algebra/tree/main/
+	- https://github.com/tcarvi-engenheiro-eduardo-leal/pesquisa-sobre-seusite/tree/main/
 
 - Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.
 	- atualizado em  ${new Date().toLocaleDateString("pt-BR")} ©TCARVI
@@ -50,13 +50,15 @@
 - Hello from $
 	- $
 
-- organizationName: 'facebook'
-	- organizationName: 'TCARVI'
-
-- https://github.com/facebook/docusaurus
-	- https://github.com/tcarvi-engenheiro-eduardo-leal/pesquisa-sobre-algebra
-
 - Se você não usar uma rede social pessoal, exclua textos e links do Facebook.
+	- organizationName: 'facebook'
+		- organizationName: 'TCARVI'
+	- https://github.com/facebook/docusaurus
+		- https://github.com/tcarvi-engenheiro-eduardo-leal/pesquisa-sobre-algebra
+
+- Substitua arquivos markdowns do diretório website/docs/, conforme padrão desta formatação de textos e conforme seus conteúdos.
+	- /docs/intro
+		- /docs/category/conceitos-gerais
 
 ## Execução do site
 - http://localhost:3000

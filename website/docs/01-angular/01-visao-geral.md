@@ -13,7 +13,6 @@ npm uninstall -g @angular/cli
 npm install -g @angular/cli@latest
 ```
 
-
 --  
 
 1. Typescript programming language
