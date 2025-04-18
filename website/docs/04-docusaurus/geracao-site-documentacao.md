@@ -12,9 +12,6 @@
 - Substitua arquivos markdowns do diretório website/docs/, para que tenha apenas os arquivos:
 	- /docs/00-conceitos-gerais/_category_.json
 	- /docs/00-conceitos-gerais/00-conceitos.md
-	desta formatação de textos e conforme seus conteúdos.
-	- /docs/intro
-		- /docs/category/conceitos-gerais
 
 ## Alteração de texts:
 - My Site
@@ -58,7 +55,9 @@
 
 - Substitua arquivos markdowns do diretório website/docs/, conforme padrão desta formatação de textos e conforme seus conteúdos.
 	- /docs/intro
-		- /docs/category/conceitos-gerais
+		- /docs/conceitos-gerais/conceitos
+
+- Apague o direteorio blog e use o seu.
 
 ## Execução do site
 - http://localhost:3000
